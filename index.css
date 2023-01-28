@@ -17,6 +17,7 @@
     #logo {
       color: white;
       font-family: "Abril Fatface";
+      font-size: 1.7rem;
     }
     .nav-header {
       min-height: 10vh;
@@ -75,18 +76,21 @@
     }
     
     .forest-span {
-      color: #e29578;
+      color: #58c765;
     }
     .transilvania-span {
-      color: #83c5be;
+      color: #5dcdc2;
     }
     
     .Walachia-span {
-      color: #006d77;
+      color:#e85ed1;
+    }
+    .Bucovina-span {
+      color: #f07122;
     }
     .hero-desc h2 {
       font-family: "Abril Fatface";
-      font-size: 5rem;
+      font-size: 2.7rem;
     }
     .hero-desc p {
       padding: 3rem 0rem;
@@ -125,10 +129,17 @@
     .nav-links {
       font-size: 2rem;
       flex-basis: 10rem;
-     
+    }
+    .nav-links a {
+      font-size: 3rem;
+      text-decoration: none;
+      color: #17181a;
+      line-height: 5rem;
+      font-family: "Abril Fatface";
+
     }
     .nav-links h3 {
-      padding: 1rem 0rem;
+     
     }
     .contact {
       flex-basis: 30rem;
@@ -165,7 +176,7 @@
       transform-origin: 75% 75%;
     }
     .cursor.nav-active {
-      background: #e29578;
+      background: #3563cf;
       transform: scale(2);
     }
     .cursor.explore-active {
@@ -193,20 +204,18 @@
       transform: translateY(100%);
     }
     .t-swipe1 {
-      background:  #e29578;
+      background:  #58c765;
     }
     .t-swipe2 {
-      background: #83c5be;
+      background: #5dcdc2;
     }
     .t-swipe3 {
-      background: #006d77;
+      background: #e85ed1;
     }
-    .t-swipe5{
-      background: #4cc6ba;
+    .t-swipe4{
+      background: #f07122;
     }
-    .t-swipe5{
-      background: #8386c5;
-    }
+  
     
     .scrollmagic-pin-spacer {
       position: static !important;
