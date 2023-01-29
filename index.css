@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 * {
       margin: 0;
       padding: 0;
@@ -16,8 +17,8 @@
     
     #logo {
       color: white;
-      font-family: "Abril Fatface";
-      font-size: 1.7rem;
+      font-family: 'Solitreo', cursive;
+      font-size: 1.3rem;
     }
     .nav-header {
       min-height: 10vh;
@@ -225,7 +226,8 @@
     /* Other Pages */
     .Atractions1,
     .Atractions2,
-    .Atractions3 {
+    .Atractions3
+     {
       min-height: 90vh;
       display: flex;
       justify-content: center;
@@ -258,13 +260,16 @@
     }
     
     .Atractions1 h1 {
-      color: #606c38;
+      color: #1ad020;
     }
     .Atractions2 h1 {
       color: #bc6c25;
     }
     .Atractions3 h1 {
       color: rgb(86, 124, 228);
+    }
+    .Atractions4 h1 {
+      color: rgb(190, 86, 228);
     }
     
     .atraction-text p {
@@ -290,15 +295,15 @@
       transform: translateX(-100%);
     }
     .swipe-1 {
-      background: #e29578;
+      background: #b5e48c;
       z-index: 5;
     }
     .swipe-2 {
-      background:#a16955;
+      background:#34a0a4;
       z-index: 4;
     }
     .swipe-3 {
-      background: #31201a;
+      background: #1e6091;
       z-index: 3;
     }
     
