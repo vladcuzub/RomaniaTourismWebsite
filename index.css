@@ -138,9 +138,7 @@
       font-family: "Abril Fatface";
 
     }
-    .nav-links h3 {
-     
-    }
+    
     .contact {
       flex-basis: 30rem;
     }
@@ -322,7 +320,7 @@
      
     }
     
-    @media screen and (max-width: 475px) {
+    @media screen and (max-width: 1024px) {
       main {
         width: 100%;
         margin: 0;
